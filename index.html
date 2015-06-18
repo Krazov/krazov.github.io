@@ -1,14 +1,10 @@
-<!DOCTYPE html>
-<html lang="">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Krazov</title>
-</head>
+---
+layout: default
+---
 
-<body>
-    <h1>Krazov</h1>
+  <h1 class="page-heading">Table of contents</h1>
 
-    <p>Coming soon. Już wkrótce.</p>
-</body>
-</html>
+  <ul class="posts-list">
+    {% for post in site.posts %}<li><span class="posts-date">{{ post.date | date: "%Y-%m-%-d" }} >></span> <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
