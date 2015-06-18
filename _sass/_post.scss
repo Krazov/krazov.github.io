@@ -1,0 +1,15 @@
+.post {
+    &-title {
+        @extend %main-heading;
+    }
+    &-footer {
+        background-color: $meta-background-color;
+        margin-top: 4em;
+    }
+}
+
+.posts {
+    &-date {
+        color: $gray-color;
+    }
+}
