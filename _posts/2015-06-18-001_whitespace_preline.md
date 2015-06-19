@@ -29,14 +29,14 @@ quite often which in return makes
 it easier to read ‘cause lines
 don’t go to any great lengths._
 
-It happens like that because browser ignores most white space: all spaces, tabs, and new lines become a single space. But when we use `white-space: pre-line`, it looks like that:
+It happens like that because browser ignores most of white space: all spaces, tabs, and new lines become a single space character. But when we use `white-space: pre-line`, it looks like that:
 
 <p style="white-space: pre-line;"><em>This is a text which has endlines
 quite often which in return makes
 it easier to read ‘cause lines
 don’t go to any great lengths.</em></p>
 
-It behave much like PHP’s function `nl2br()`. In my career I had used that on two occasions, which is probably why it remains relatively unknown.
+It behaves much like PHP’s function `nl2br()`. In my career I had used that on two occasions, which is probably why it remains relatively unknown.
 
 ## Further reading
 
