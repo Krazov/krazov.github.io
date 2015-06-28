@@ -30,13 +30,13 @@ $gray-color:                    $text-color - #333;
 $meta-background-color:         #D3D3D3;
 
 // widths and breakpoints
-$menu-width:        150px;
-$content-width:     500px;
-$standard-space:    100px;
-$scrollbar:         17px;
+$menu-width:                    150px;
+$content-width:                 500px;
+$standard-space:                100px;
+$scrollbar:                     17px;
 
-$breakpoint-middle: $content-width + $padding + $scrollbar;
-$breakpoint-full:   $menu-width + $standard-space + $content-width + $scrollbar;
+$breakpoint-middle:             $content-width + $padding + $scrollbar;
+$breakpoint-full:               $menu-width + $standard-space + $content-width + $scrollbar;
 
 $indentation: 21px;
 
