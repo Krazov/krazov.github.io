@@ -1,9 +1,8 @@
 # Site settings
-title: Krazov
+title: Krazov’s writings
 email: krazov@interia.pl
 description: > # this means to ignore newlines until "baseurl:"
-  Strona, na której dzielę się swoimi doświadczeniami zebranymi podczas
-  pracy jako frontendowiec.
+  I share my experience of working with frontend with readers.
 baseurl: "" # the subpath of your site, e.g. /blog/
 
 # Build settings
