@@ -4,7 +4,7 @@ title: "Contact"
 permalink: /contact/
 ---
 
-Email: [krazov@interia.pl](mailto:krazov@interia.pl)
+Email: [krazov@protonmail.ch](mailto:krazov@protonmail.ch)
 
 Twitter: [@Krazov](http://twitter.com/Krazov)
 
