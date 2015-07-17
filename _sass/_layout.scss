@@ -6,8 +6,8 @@
     flex-direction: column;
 
     @include media-query($breakpoint-full) {
-        flex-direction: row-reverse;
-        justify-content: flex-end;
+        @extend %flex-direction;
+        @extend %justify-content;
     }
 
     &-content {
