@@ -7,6 +7,11 @@
     display: flex;
 }
 
+@mixin flex-item($number) {
+    -webkit-order: $number;
+    order: $number;
+}
+
 %main-heading {
     font-weight: bold;
     margin-bottom: 4em;

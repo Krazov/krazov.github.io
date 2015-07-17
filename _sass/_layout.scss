@@ -5,15 +5,13 @@
     color: $content-text-color;
     flex-direction: column;
 
-    @include media-query($breakpoint-middle) {
-
-    }
     @include media-query($breakpoint-full) {
         flex-direction: row-reverse;
         justify-content: flex-end;
     }
 
     &-content {
+        @include flex-item(1);
         line-height: $base-line-height;
         padding: $standard-space/2 $padding $standard-space/4;
 
@@ -84,6 +82,7 @@
     }
 
     &-nav {
+        @include flex-item(2);
         background-color: $menu-background-color;
         box-sizing: border-box;
         padding: $padding;
