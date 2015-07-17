@@ -3,11 +3,11 @@
 
     background-color: $content-background-color;
     color: $content-text-color;
-    flex-direction: column;
+    @include flex-direction(column);
 
     @include media-query($breakpoint-full) {
-        @extend %flex-direction;
-        @extend %justify-content;
+        @include flex-direction(row-reverse);
+        @include justify-content(flex-end);
     }
 
     &-content {
