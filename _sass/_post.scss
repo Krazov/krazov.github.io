@@ -13,3 +13,22 @@
         color: $gray-color;
     }
 }
+
+.highlight {
+    position: relative;
+
+    code {
+        &:before {
+            content: attr(data-lang);
+            color: $gray-color;
+            position: absolute;
+            right: 1px;
+            top: -7px;
+            z-index: 5;
+        }
+        span {
+            position: relative;
+            z-index: 10;
+        }
+    }
+}
