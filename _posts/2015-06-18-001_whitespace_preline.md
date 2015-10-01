@@ -36,8 +36,8 @@ quite often which in return makes
 it easier to read ‘cause lines
 don’t go to any great lengths.</em></p>
 
-It behaves much like PHP’s function `nl2br()`. In my career I had used that on two occasions, which is probably why it remains relatively unknown.
+It behaves much like PHP’s function `nl2br()`. It remains relatively unknown; in my career I had used that only on two occasions.
 
 ## Further reading
 
-* [Article on Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/CSS/white-space)
+* [Article about `white-space` on Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/CSS/white-space)
