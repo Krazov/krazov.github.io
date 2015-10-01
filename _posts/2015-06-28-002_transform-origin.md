@@ -109,4 +109,4 @@ Another triumph of mind over matter.
 
 ## Further reading
 
-* [Article on Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin)
+* [Article about `transform-origin` on Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin)
