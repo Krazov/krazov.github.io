@@ -51,11 +51,12 @@
         ul {
             @extend %indentation;
 
-            list-style-type: disc
+            list-style-type: disc;
         }
         p {
             margin: 2em 0;
-
+        }
+        p, ul {
             code {
                 background-color: $inline-code-background-color;
             }
